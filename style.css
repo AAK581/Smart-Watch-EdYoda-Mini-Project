@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'montserrat', "Source Sans 3";
+}
+
+#logo {
+    height: 50px;
+}
+
+nav {
+    background-color: #233448;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.colorPicks {
+    width: 15px;
+    height: 10px;
+    border-radius: 6px;
+    margin-right: 8px;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 18px 22px;
+}
+
+#mainDiv {
+    width: 100%;
+    display: flex;
+}
+
+#leftWatch {
+    margin-right: -170px;
+    padding-left: 200px;
+    padding-top: 50px;
+    position: absolute;
+    left: -10px;
+}
+
+#leftWatch>img {
+    width: 500px;
+    position: absolute;
+}
+
+#timeWatch {
+    position: absolute;
+    top: 260px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    left: 390px;
+    color: white;
+}
+
+#Layer_1 {
+	width: 70px;
+    position: absolute;
+    top: 240px;
+    left: 410px;
+    animation: pulse 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#heartP {
+    position: absolute;
+    top: 310px;
+    left: 425px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: white;
+}
+
+@keyframes pulse {
+    0% {
+        scale: 1;
+    }
+    
+    100% {
+        scale: 1.1;
+    }
+}
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#rightDetails {
+    padding-top: 50px;
+    position: absolute;
+    right: 400px;
+    margin-left: 100px;
+}
+
+#rightDetails>*{
+    padding: 5px 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#rightDetails>p {
+    width: 520px;
+}
+
+#rightDetails>h1 {
+    padding-top: 30px;
+}
+
+#rightDetails>h3 {
+    padding-top: 65px;
+    line-height: 12px;
+    font-weight: 600;
+}
+
+#featuresH3 {
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+
+#black {
+    background-color: #23211f;
+}
+
+#red {
+    background-color: #ca3d22;
+}
+
+#blue {
+    background-color: #565681;
+}
+
+#purple {
+    background-color: #8a5362;
+}
+
+#pink {
+    background-color: #e9c7be;
+}
+
+.btnFeatures {
+    padding: 10px 15px;
+    margin-right: 6px;
+    margin-bottom: 25px;
+    background-color: #d8d7d7;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+
+#buyNow {
+    padding: 15px 25px;
+    background-color: rgb(222, 145, 1);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    font-weight: 550;
+}
